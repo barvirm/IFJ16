@@ -1,0 +1,66 @@
+class Main{
+	static void run(){
+		ifj16.print("Vypocet elektro velicin\n");
+		ifj16.print("R-odpor\n");
+		ifj16.print("U-napeti\n");
+		ifj16.print("I-Proud\n");
+		ifj16.print("Zadej kterou velicinou chces vypocitat: ");
+		String select = ifj16.readString();
+		int comparation=ifj16.compare(select,"R");
+		double value;
+
+		if(comparation==0){
+			value = calc.R();
+			misc.print("odporu",value,"R");
+		}else{
+			comparation=ifj16.compare(select,"U");
+			if(comparation==0){
+				value = calc.U();
+				misc.print("napeti",value,"V");
+			}else{
+				comparation=ifj16.compare(select,"I");
+				if(comparation==0){
+					value = calc.I();
+					misc.print("proudu",value,"A");
+				}else{
+					ifj16.print("Vybral jsi spatne\n");
+				}
+			}
+		}
+	}
+}
+
+class misc{
+	static double load(String input_value){
+		ifj16.print("Zadej hodnotu " + input_value +": ");
+		double value = ifj16.readDouble();
+		return value;
+	}
+
+	static void print(String quantity, double value, String unit){
+		ifj16.print("Hodnota " + quantity + " je " + value + unit + "\n");
+	}
+}
+
+class calc{
+	static double R(){
+		double U = misc.load("U");
+		double I = misc.load("I");
+		double R=U/I;
+		return R;
+	}
+
+	static double U(){
+		double R = misc.load("R");
+		double I = misc.load("I");
+		double U=R*I;
+		return U;
+	}
+
+	static double I(){
+		double R = misc.load("R");
+		double U = misc.load("U");
+		double I=U/R;
+		return I;
+	}
+}

@@ -1,0 +1,17 @@
+class Main
+{
+	static void run()
+	{
+		int a;
+		int vysl;
+		if (a < 0) {
+		}
+		else {
+			vysl = 1;
+			while (a > 0) {
+				vysl = vysl * a;
+				a = a - 1;
+			}
+		}
+	}
+}

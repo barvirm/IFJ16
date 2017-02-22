@@ -1,0 +1,21 @@
+class Main{
+	static int A;
+	static int B;
+	static void run(){
+		A = ifj16.readInt();
+		B = ifj16.readInt();
+		if(A>B){
+			ifj16.print("A is higher than B");
+		}
+		else{}
+		else{}
+		if(A<B){
+			ifj16.print("A is lower than B");
+		}
+		else{}
+		if(A==B){
+			ifj16.print("A is equal to B");
+		}
+		else{}
+	}
+}

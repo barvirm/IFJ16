@@ -1,0 +1,453 @@
+TEST: 1
+Processing: tests/Full/full_test_01-00.ifj16
+Output:
+Zadejte cislo pro vypocet faktorialu:Vysledek je:5040
+Return: 0
+TEST: 2
+Processing: tests/Full/full_test_01-01.ifj16
+Output:
+tests/Full/full_test_01-01.ifj16:ERROR:3:SYNTAX_ERROR
+Return: 2
+TEST: 3
+Processing: tests/Full/full_test_01-02.ifj16
+Output:
+tests/Full/full_test_01-02.ifj16:ERROR:1:SYNTAX_ERROR
+Return: 2
+TEST: 4
+Processing: tests/Full/full_test_01-03.ifj16
+Output:
+tests/Full/full_test_01-03.ifj16:ERROR:0:SEM_UNDEF_ERROR
+Return: 3
+TEST: 5
+Processing: tests/Full/full_test_01-04.ifj16
+Output:
+Zadejte cislo pro vypocet faktorialu:Vysledek je:40320
+Return: 0
+TEST: 6
+Processing: tests/Full/full_test_01-05.ifj16
+Output:
+tests/Full/full_test_01-05.ifj16:ERROR:6:SYNTAX_ERROR
+Return: 2
+TEST: 7
+Processing: tests/Full/full_test_01-06.ifj16
+Output:
+tests/Full/full_test_01-06.ifj16:ERROR:1:SYNTAX_ERROR
+Return: 2
+TEST: 8
+Processing: tests/Full/full_test_01-07.ifj16
+Output:
+tests/Full/full_test_01-07.ifj16:ERROR:0:SEM_UNDEF_ERROR
+Return: 3
+TEST: 9
+Processing: tests/Full/full_test_01-08.ifj16
+Output:
+tests/Full/full_test_01-08.ifj16:ERROR:8:SYNTAX_ERROR
+Return: 2
+TEST: 10
+Processing: tests/Full/full_test_01-09.ifj16
+Output:
+Zadejte cislo pro vypocet faktorialu:Vysledek je:3628800
+Return: 0
+TEST: 11
+Processing: tests/Full/full_test_02-00.ifj16
+Output:
+Zadejte cislo pro vypocet faktorialu: Vysledek: 5040 (zaporny: -5040)
+Return: 0
+TEST: 12
+Processing: tests/Full/full_test_02-01.ifj16
+Output:
+tests/Full/full_test_02-01.ifj16:ERROR:8:SYNTAX_ERROR
+Return: 2
+TEST: 13
+Processing: tests/Full/full_test_02-02.ifj16
+Output:
+tests/Full/full_test_02-02.ifj16:ERROR:12:SYNTAX_ERROR
+Return: 2
+TEST: 14
+Processing: tests/Full/full_test_02-03.ifj16
+Output:
+tests/Full/full_test_02-03.ifj16:ERROR:18:SYNTAX_ERROR
+Return: 2
+TEST: 15
+Processing: tests/Full/full_test_02-04.ifj16
+Output:
+tests/Full/full_test_02-04.ifj16:ERROR:18:SYNTAX_ERROR
+Return: 2
+TEST: 16
+Processing: tests/Full/full_test_02-05.ifj16
+Output:
+tests/Full/full_test_02-05.ifj16:ERROR:0:SEM_UNDEF_ERROR
+Return: 3
+TEST: 17
+Processing: tests/Full/full_test_02-06.ifj16
+Output:
+tests/Full/full_test_02-06.ifj16:ERROR:13:SYNTAX_ERROR
+Return: 2
+TEST: 18
+Processing: tests/Full/full_test_02-07.ifj16
+Output:
+tests/Full/full_test_02-07.ifj16:ERROR:12:SYNTAX_ERROR
+Return: 2
+TEST: 19
+Processing: tests/Full/full_test_02-08.ifj16
+Output:
+tests/Full/full_test_02-08.ifj16:ERROR:18:SYNTAX_ERROR
+Return: 2
+TEST: 20
+Processing: tests/Full/full_test_02-09.ifj16
+Output:
+Zadejte cislo pro vypocet faktorialu: Vysledek: 40320 (zaporny: -40320)
+Return: 0
+TEST: 21
+Processing: tests/Full/full_test_03-00.ifj16
+Output:
+Pozice retezce "text" v retezci str2: 15
+Zadejte nejakou posloupnost vsech malych pismen a-h, pricemz se pismena nesmeji v posloupnosti opakovat:
+Return: 0
+TEST: 22
+Processing: tests/Full/full_test_03-01.ifj16
+Output:
+tests/Full/full_test_03-01.ifj16:ERROR:40:SEM_UNDEF_ERROR
+Return: 3
+TEST: 23
+Processing: tests/Full/full_test_03-02.ifj16
+Output:
+tests/Full/full_test_03-02.ifj16:ERROR:18:SYNTAX_ERROR
+Return: 2
+TEST: 24
+Processing: tests/Full/full_test_03-03.ifj16
+Output:
+tests/Full/full_test_03-03.ifj16:ERROR:18:SYNTAX_ERROR
+Return: 2
+TEST: 25
+Processing: tests/Full/full_test_03-04.ifj16
+Output:
+tests/Full/full_test_03-04.ifj16:ERROR:15:SEM_UNDEF_ERROR
+Return: 3
+TEST: 26
+Processing: tests/Full/full_test_03-05.ifj16
+Output:
+tests/Full/full_test_03-05.ifj16:ERROR:4:SEM_UNDEF_ERROR
+Return: 3
+TEST: 27
+Processing: tests/Full/full_test_03-06.ifj16
+Output:
+tests/Full/full_test_03-06.ifj16:ERROR:13:SYNTAX_ERROR
+Return: 2
+TEST: 28
+Processing: tests/Full/full_test_03-07.ifj16
+Output:
+tests/Full/full_test_03-07.ifj16:ERROR:15:SEM_UNDEF_ERROR
+Return: 3
+TEST: 29
+Processing: tests/Full/full_test_04-00.ifj16
+Output:
+5 na 10 je:9765625.01256 modulo 17 je:15.010 factorial je: 3628800.0
+Return: 0
+TEST: 30
+Processing: tests/Full/full_test_04-01.ifj16
+Output:
+tests/Full/full_test_04-01.ifj16:ERROR:23:SYNTAX_ERROR
+Return: 2
+TEST: 31
+Processing: tests/Full/full_test_04-02.ifj16
+Output:
+5 na 10 je:9765625.01256 modulo 17 je:15.010 factorial je: 3628800.0
+Return: 0
+TEST: 32
+Processing: tests/Full/full_test_04-03.ifj16
+Output:
+tests/Full/full_test_04-03.ifj16:ERROR:40:SYNTAX_ERROR
+Return: 2
+TEST: 33
+Processing: tests/Full/full_test_04-04.ifj16
+Output:
+tests/Full/full_test_04-04.ifj16:ERROR:44:SYNTAX_ERROR
+Return: 2
+TEST: 34
+Processing: tests/Full/full_test_04-05.ifj16
+Output:
+tests/Full/full_test_04-05.ifj16:ERROR:14:SEM_UNDEF_ERROR
+Return: 3
+TEST: 35
+Processing: tests/Full/full_test_04-06.ifj16
+Output:
+5 na 10 je:9765625.01256 modulo 17 je:15.010 factorial je: 3628800.0
+Return: 0
+TEST: 36
+Processing: tests/Full/full_test_04-07.ifj16
+Output:
+5 na 10 je:9765625.01256 modulo 17 je:15.010 factorial je: 3628800.0
+Return: 0
+TEST: 37
+Processing: tests/Full/full_test_04-08.ifj16
+Output:
+5 na 10 je:9765625.01256 modulo 17 je:15.010 factorial je: 3628800.0
+Return: 0
+TEST: 38
+Processing: tests/Full/full_test_05-00.ifj16
+Output:
+A is higher than B
+Return: 0
+TEST: 39
+Processing: tests/Full/full_test_05-01.ifj16
+Output:
+tests/Full/full_test_05-01.ifj16:ERROR:5:SEM_UNDEF_ERROR
+Return: 3
+TEST: 40
+Processing: tests/Full/full_test_05-02.ifj16
+Output:
+A is higher than B
+Return: 0
+TEST: 41
+Processing: tests/Full/full_test_05-03.ifj16
+Output:
+tests/Full/full_test_05-03.ifj16:ERROR:15:SYNTAX_ERROR
+Return: 2
+TEST: 42
+Processing: tests/Full/full_test_05-04.ifj16
+Output:
+tests/Full/full_test_05-04.ifj16:ERROR:11:SYNTAX_ERROR
+Return: 2
+TEST: 43
+Processing: tests/Full/full_test_05-05.ifj16
+Output:
+tests/Full/full_test_05-05.ifj16:ERROR:20:SYNTAX_ERROR
+Return: 2
+TEST: 44
+Processing: tests/Full/full_test_05-06.ifj16
+Output:
+tests/Full/full_test_05-06.ifj16:ERROR:7:SYNTAX_ERROR
+Return: 2
+TEST: 45
+Processing: tests/Full/full_test_05-07.ifj16
+Output:
+tests/Full/full_test_05-07.ifj16:ERROR:2:SYNTAX_ERROR
+Return: 2
+TEST: 46
+Processing: tests/Full/full_test_05-08.ifj16
+Output:
+tests/Full/full_test_05-08.ifj16:ERROR:4:SYNTAX_ERROR
+Return: 2
+TEST: 47
+Processing: tests/Full/full_test_06-00.ifj16
+Output:
+a:24.0
+b:-18.0
+c:10
+f
+g
+h
+j
+Return: 0
+TEST: 48
+Processing: tests/Full/full_test_06-01.ifj16
+Output:
+tests/Full/full_test_06-01.ifj16:ERROR:4:SYNTAX_ERROR
+Return: 2
+TEST: 49
+Processing: tests/Full/full_test_06-02.ifj16
+Output:
+tests/Full/full_test_06-02.ifj16:ERROR:16:SYNTAX_ERROR
+Return: 2
+TEST: 50
+Processing: tests/Full/full_test_06-03.ifj16
+Output:
+tests/Full/full_test_06-03.ifj16:ERROR:5:SYNTAX_ERROR
+Return: 2
+TEST: 51
+Processing: tests/Full/full_test_06-04.ifj16
+Output:
+tests/Full/full_test_06-04.ifj16:ERROR:24:SYNTAX_ERROR
+Return: 2
+TEST: 52
+Processing: tests/Full/full_test_06-05.ifj16
+Output:
+tests/Full/full_test_06-05.ifj16:ERROR:28:SYNTAX_ERROR
+Return: 2
+TEST: 53
+Processing: tests/Full/full_test_06-06.ifj16
+Output:
+a:24.0
+b:-18.0
+c:10
+f
+g
+h
+j
+Return: 0
+TEST: 54
+Processing: tests/Full/full_test_06-07.ifj16
+Output:
+a:24.0
+b:-18.0
+c:10
+f
+g
+h
+j
+Return: 0
+TEST: 55
+Processing: tests/Full/full_test_06-08.ifj16
+Output:
+tests/Full/full_test_06-08.ifj16:ERROR:5:SYNTAX_ERROR
+Return: 2
+TEST: 56
+Processing: tests/Full/full_test_06-09.ifj16
+Output:
+a:24.0
+b:-18.0
+c:10
+f
+g
+h
+j
+Return: 0
+TEST: 57
+Processing: tests/Full/full_test_06-10.ifj16
+Output:
+tests/Full/full_test_06-10.ifj16:ERROR:24:SYNTAX_ERROR
+Return: 2
+TEST: 58
+Processing: tests/Full/full_test_06-11.ifj16
+Output:
+tests/Full/full_test_06-11.ifj16:ERROR:4:SYNTAX_ERROR
+Return: 2
+TEST: 59
+Processing: tests/Full/full_test_07-00.ifj16
+Output:
+SUM is: 264
+Return: 0
+TEST: 60
+Processing: tests/Full/full_test_07-01.ifj16
+Output:
+tests/Full/full_test_07-01.ifj16:ERROR:7:SYNTAX_ERROR
+Return: 2
+TEST: 61
+Processing: tests/Full/full_test_07-02.ifj16
+Output:
+tests/Full/full_test_07-02.ifj16:ERROR:14:SYNTAX_ERROR
+Return: 2
+TEST: 62
+Processing: tests/Full/full_test_07-03.ifj16
+Output:
+SUM is: 264
+Return: 0
+TEST: 63
+Processing: tests/Full/full_test_07-04.ifj16
+Output:
+tests/Full/full_test_07-04.ifj16:ERROR:7:SYNTAX_ERROR
+Return: 2
+TEST: 64
+Processing: tests/Full/full_test_07-05.ifj16
+Output:
+tests/Full/full_test_07-05.ifj16:ERROR:5:SYNTAX_ERROR
+Return: 2
+TEST: 65
+Processing: tests/Full/full_test_07-06.ifj16
+Output:
+tests/Full/full_test_07-06.ifj16:ERROR:5:SYNTAX_ERROR
+Return: 2
+TEST: 66
+Processing: tests/Full/full_test_07-07.ifj16
+Output:
+SUM is: 264
+Return: 0
+TEST: 67
+Processing: tests/Full/full_test_08-00.ifj16
+Output:
+Zadej zaklad pro umocnovani: Zadej limit pro velikkost mocniny: Potřebný počet zanoření je:9
+Return: 0
+TEST: 68
+Processing: tests/Full/full_test_08-01.ifj16
+Output:
+tests/Full/full_test_08-01.ifj16:ERROR:15:SYNTAX_ERROR
+Return: 2
+TEST: 69
+Processing: tests/Full/full_test_08-02.ifj16
+Output:
+tests/Full/full_test_08-02.ifj16:ERROR:13:SYNTAX_ERROR
+Return: 2
+TEST: 70
+Processing: tests/Full/full_test_08-03.ifj16
+Output:
+tests/Full/full_test_08-03.ifj16:ERROR:7:SEM_UNCOMP_ERROR
+Return: 4
+TEST: 71
+Processing: tests/Full/full_test_08-04.ifj16
+Output:
+tests/Full/full_test_08-04.ifj16:ERROR:19:SYNTAX_ERROR
+Return: 2
+TEST: 72
+Processing: tests/Full/full_test_08-05.ifj16
+Output:
+tests/Full/full_test_08-05.ifj16:ERROR:19:SYNTAX_ERROR
+Return: 2
+TEST: 73
+Processing: tests/Full/full_test_08-06.ifj16
+Output:
+tests/Full/full_test_08-06.ifj16:ERROR:22:SYNTAX_ERROR
+Return: 2
+TEST: 74
+Processing: tests/Full/full_test_08-07.ifj16
+Output:
+tests/Full/full_test_08-07.ifj16:ERROR:20:SYNTAX_ERROR
+Return: 2
+TEST: 75
+Processing: tests/Full/full_test_09-00.ifj16
+Output:
+Pro ukonceni zadej exit misto vstupniho znaku 
+Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Cely retezec = 59j kjd
+Delka retezce je: 7
+Serazeny retezec vypada takto:  59djjk
+Zadej substring, ktery bude hledan ve vstupnim retezci: Zadany podretezec se naleza na pozici 5
+Return: 0
+TEST: 76
+Processing: tests/Full/full_test_09-01.ifj16
+Output:
+tests/Full/full_test_09-01.ifj16:ERROR:33:SYNTAX_ERROR
+Return: 2
+TEST: 77
+Processing: tests/Full/full_test_09-02.ifj16
+Output:
+tests/Full/full_test_09-02.ifj16:ERROR:33:SYNTAX_ERROR
+Return: 2
+TEST: 78
+Processing: tests/Full/full_test_09-03.ifj16
+Output:
+tests/Full/full_test_09-03.ifj16:ERROR:38:SYNTAX_ERROR
+Return: 2
+TEST: 79
+Processing: tests/Full/full_test_09-04.ifj16
+Output:
+tests/Full/full_test_09-04.ifj16:ERROR:33:SYNTAX_ERROR
+Return: 2
+TEST: 80
+Processing: tests/Full/full_test_09-05.ifj16
+Output:
+tests/Full/full_test_09-05.ifj16:ERROR:16:SEM_UNCOMP_ERROR
+Return: 4
+TEST: 81
+Processing: tests/Full/full_test_09-06.ifj16
+Output:
+tests/Full/full_test_09-06.ifj16:ERROR:18:SYNTAX_ERROR
+Return: 2
+TEST: 82
+Processing: tests/Full/full_test_09-07.ifj16
+Output:
+tests/Full/full_test_09-07.ifj16:ERROR:27:SYNTAX_ERROR
+Return: 2
+TEST: 83
+Processing: tests/Full/full_test_09-08.ifj16
+Output:
+Pro ukonceni zadej exit misto vstupniho znaku 
+Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Cely retezec = 59j kjd
+Delka retezce je: 7
+Serazeny retezec vypada takto:  59djjk
+Zadej substring, ktery bude hledan ve vstupnim retezci: Zadany podretezec se naleza na pozici 5
+Return: 0
+TEST: 84
+Processing: tests/Full/full_test_09-09.ifj16
+Output:
+tests/Full/full_test_09-09.ifj16:ERROR:39:SEM_UNCOMP_ERROR
+Return: 4

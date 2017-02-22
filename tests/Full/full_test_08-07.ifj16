@@ -1,0 +1,30 @@
+class Main{
+	static int nesting = 1;
+	static double result = 0;
+	
+	static void run(){
+		double base = 0;
+		double limit = 0;
+		ifj16.print("Zadej zaklad pro umocnovani: ");
+		base = ifj16.readDouble();
+		ifj16.print("Zadej limit pro velikost mocniny: ");
+		limit = ifj16.readDouble();
+		result = base;
+		nest(base,limit);
+
+		ifj16.print("Potřebný počet zanoření je:" + nesting +"\n");
+
+	}
+
+	static void nest(double base,double limit){
+		result = result (* base);
+		nesting = nesting + 1;
+		if(result < limit){
+			nest(base,limit);
+		}
+		else{
+			return;
+		}
+
+	}
+}

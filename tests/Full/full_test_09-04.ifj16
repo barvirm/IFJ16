@@ -1,0 +1,51 @@
+class Main	/*test na práci se stringy*/
+{	
+	static void run()
+	{
+		int len;
+		String input;
+		input = "start";
+		String str;
+		str = "";
+		ifj16.print("Pro ukonceni zadej exit misto vstupniho znaku \n");
+		int compare = ifj16.compare(input,"exit");
+		while(compare!=0){
+			ifj16.print("Zadej !jeden! char pro přidání do stringu: ");
+			input = ifj16.readString();
+			compare = ifj16.compare(input,"exit");
+			if(compare!=0){
+				len = ifj16.length(input);
+				if(len!=1){
+					ifj16.print("Spatne zadany retezec (delka = " + len + ")\n");
+					input = "exit";
+				}
+				else{
+					str = str + input;
+				}
+			}
+			else{}
+		}
+		ifj16.print("Cely retezec = " + str + "\n");
+		len = ifj16.length(str);
+		ifj16.print("Delka retezce je: " + len + "\n");
+		String sorted = ifj16.sort(str);
+		ifj16.print("Serazeny retezec vypada takto: " + sorted + "\n");
+		stat.sub(,,);
+	}
+}
+
+class stat{
+	static void sub(String str){
+		String sub;
+		ifj16.print("Zadej substring, ktery bude hledan ve vstupnim retezci: ");
+		sub = ifj16.readString();
+		int sub_found = ifj16.find(str,sub);
+		if(sub_found!=-1){
+			ifj16.print("Zadany podretezec se naleza na pozici " + sub_found + "\n");
+		}
+		else{
+			ifj16.print("Zadany podretezec se ve vstupnim retezci nenaleza \n");
+		}
+		return;
+	}
+}

@@ -1,0 +1,5 @@
+TEST: 11
+Processing: tests/Full/full_test_02-00.ifj16
+Output:
+Zadejte cislo pro vypocet faktorialu: Vysledek: 5040 (zaporny: -5040)
+Return: 0

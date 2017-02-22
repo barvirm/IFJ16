@@ -1,0 +1,5 @@
+TEST: 21
+Processing: tests/Full/full_test_03-00.ifj16
+Output:
+Pozice retezce "text" v retezci str2: 15
+Zadejte nejakou posloupnost vsech malych pismen a-h, pricemz se pismena nesmeji v posloupnosti opakovat:Return: 0

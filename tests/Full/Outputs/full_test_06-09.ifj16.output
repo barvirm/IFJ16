@@ -1,0 +1,10 @@
+TEST: 56
+Processing: tests/Full/full_test_06-09.ifj16
+Output:
+a:24
+b:-18
+c:10
+f
+g
+j
+Return: 0

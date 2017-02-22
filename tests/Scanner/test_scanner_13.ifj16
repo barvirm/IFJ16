@@ -1,0 +1,8 @@
+class Main {
+	static void run() {
+		Main.fce(5, \5, 6);
+	}
+	static void fce(int a, int a, int a) {
+		return;
+	}
+}

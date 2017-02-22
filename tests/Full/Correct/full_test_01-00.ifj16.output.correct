@@ -1,0 +1,5 @@
+TEST: 1
+Processing: tests/Full/full_test_01-00.ifj16
+Output:
+Zadejte cislo pro vypocet faktorialu:Vysledek je:5040
+Return: 0

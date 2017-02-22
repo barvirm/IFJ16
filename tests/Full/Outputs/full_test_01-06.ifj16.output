@@ -1,0 +1,5 @@
+TEST: 7
+Processing: tests/Full/full_test_01-06.ifj16
+Output:
+tests/Full/full_test_01-06.ifj16:ERROR:1:SYNTAX_ERROR
+Return: 2

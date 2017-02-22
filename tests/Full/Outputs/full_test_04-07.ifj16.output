@@ -1,0 +1,7 @@
+TEST: 36
+Processing: tests/Full/full_test_04-07.ifj16
+Output:
+5 na 10 je:9.76562e+06
+1256 modulo 17 je:15
+10 factorial je: 3.6288e+06
+Return: 0

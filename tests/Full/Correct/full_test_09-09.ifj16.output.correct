@@ -1,0 +1,5 @@
+TEST: 84
+Processing: tests/Full/full_test_09-09.ifj16
+Output:
+tests/Full/full_test_09-09.ifj16:ERROR:39:SYNTAX_ERROR
+Return: 2

@@ -1,0 +1,9 @@
+TEST: 75
+Processing: tests/Full/full_test_09-00.ifj16
+Output:
+Pro ukonceni zadej exit misto vstupniho znaku 
+Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Zadej !jeden! char pro přidání do stringu: Cely retezec = 59j kjd
+Delka retezce je: 7
+Serazeny retezec vypada takto:  59djjk
+Zadej substring, ktery bude hledan ve vstupnim retezci: Zadany podretezec se naleza na pozici 5
+Return: 0

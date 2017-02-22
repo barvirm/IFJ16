@@ -1,0 +1,24 @@
+0 0 OK - maybe line 19
+class Main
+{
+	static void run()
+	{
+		int a;
+		int f;
+		ifj16.print("Zadejte cislo pro vypocet faktorialu:");
+		a = ifj16.readInt();
+		int vysl;
+		if (a < 0) { // nacitani zaporneho cisla nemusite podporovat
+			ifj16.print("Faktorial nelze spocitat!\n");
+		}
+		else {
+			vysl = 1;
+			while (a > 0) {
+				vysl = vysl * a;
+				a = a - 1;
+			}
+			f = (5*10);
+			ifj16.print("Vysledek je:" + f + "\n");
+		}
+	}
+}

@@ -1,0 +1,5 @@
+TEST: 20
+Processing: tests/Full/full_test_02-09.ifj16
+Output:
+Zadejte cislo pro vypocet faktorialu: Vysledek: 40320 (zaporny: -40320)
+Return: 0

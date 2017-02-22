@@ -1,0 +1,5 @@
+TEST: 67
+Processing: tests/Full/full_test_08-00.ifj16
+Output:
+Zadej zaklad pro umocnovani: Zadej limit pro velikost mocniny: Potřebný počet zanoření je:9
+Return: 0

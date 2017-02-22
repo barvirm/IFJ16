@@ -1,0 +1,6 @@
+TEST: 10
+Processing: tests/Full/full_test_01-09.ifj16
+Output:
+Error: work with uninicializated variable (offset in frame: 0)
+tests/Full/full_test_01-09.ifj16:ERROR:0:RUNTIME_UNINIT_ERROR
+Return: 8

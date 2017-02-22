@@ -1,0 +1,18 @@
+0 0 OK
+class Main{
+	static int sum = 0;
+	static int input=1;
+	static void run(){
+		while(input){
+		input = ifj16.readInt();
+		sum = sum + input;
+		}
+	print.printsum(sum);
+	}
+}
+
+class print{
+	static void printsum(int sum){
+		ifj16.print("SUM is: "+ sum + "\n");
+	}
+}

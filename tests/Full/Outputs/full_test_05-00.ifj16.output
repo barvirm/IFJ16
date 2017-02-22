@@ -1,0 +1,5 @@
+TEST: 38
+Processing: tests/Full/full_test_05-00.ifj16
+Output:
+A is higher than B
+Return: 0

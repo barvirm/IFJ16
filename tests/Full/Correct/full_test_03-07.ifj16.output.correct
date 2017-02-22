@@ -1,0 +1,5 @@
+TEST: 28
+Processing: tests/Full/full_test_03-07.ifj16
+Output:
+tests/Full/full_test_03-07.ifj16:ERROR:15:SEM_UNDEF_ERROR
+Return: 3

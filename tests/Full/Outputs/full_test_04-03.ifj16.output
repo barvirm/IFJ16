@@ -1,0 +1,5 @@
+TEST: 32
+Processing: tests/Full/full_test_04-03.ifj16
+Output:
+tests/Full/full_test_04-03.ifj16:ERROR:40:SYNTAX_ERROR
+Return: 2

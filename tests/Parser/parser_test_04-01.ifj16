@@ -1,0 +1,58 @@
+2 24 Missing else
+class Main
+{
+	static int i = pow(5,2);
+	static void run()
+	{
+		double pow = Math.pow(5,10);
+		ifj16.print("5 na 10 je:" + pow + "\n");
+		double mod = Math.mod(1256,17);
+		ifj16.print("1256 modulo 17 je:" + mod + "\n");
+		double fac = Math.factorial(10);
+		ifj16.print("10 factorial je: " + fac + "\n");
+	}
+}
+
+class Math
+{
+	static int pow(int base,int exponent)
+	{
+		if(exponent == 0){
+			return 1;
+		}
+		else {}
+
+		int powered = base;
+
+		while(exponent>1){
+			powered = powered * base;
+			exponent = exponent - 1;
+		}
+		return powered;
+	}
+
+	static int mod(int divident, int divider)
+	{
+		while(divident>divider)
+		{
+			divident=divident-divider;
+		}
+		return divident;
+	}
+
+	static int factorial(int factor){
+		int factorial;
+		if(factor == 0){
+			return 0;
+		}
+		else {
+			factorial = 1;
+			while (factor > 0) {
+				factorial = factorial * factor;
+				factor = factor - 1;
+			}
+			return factorial;
+		}
+	}
+
+}

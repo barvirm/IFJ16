@@ -1,0 +1,17 @@
+class Main{
+	static void run(){
+	int a = 10;
+	int b = 5;
+	double c = 2.5;
+	double d = 4.0;
+	String e = "Hello";
+	String f = "world";
+	String g = e + f;
+	ifj16.print(g + "\n");
+	a = (b + d)*a;
+	d = e + c;
+	b = (f + e)-c;
+	f = f * e;
+	e = f - e;
+	}
+}

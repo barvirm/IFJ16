@@ -1,0 +1,92 @@
+<program> - class id { <class_body> } end_of_file
+
+<class_body> - static <type> id <var_func>
+
+<type> - int
+<type> - string
+<type> - double
+<type> - void
+
+<var_func> - ;
+<var_func> - = <expression>
+<var_func> - ( <param> ) <func_body>
+
+<param> - int id <param_n>
+<param> - string id <param_n>
+<param> - double id <param_n>
+<param> - {\epsilon}
+
+<param_n> - , <param>
+<param_n> - {\epsilon}
+
+<func_body> - { <switch1> }
+
+<switch1> - <declaration> 
+<switch1> - <while>
+<switch1> - <if>
+<switch1> - return <expression>;
+<switch1> - <full_id>
+<switch1> - id = <expression>;
+
+<declaration> - <var_type> id <ass_dec>
+<ass_dec> - ;
+<ass_dec> - = <expression>
+<var_type> - int
+<var_type> - double
+<var_type> - string
+
+<while> - while <condition> <if_while_body>
+<if_while_body> - { <switch2> }
+<switch2> - <while>
+<switch2> - <if>
+<switch2> - return <expression>;
+<switch2> - <if_while_full_id>
+<switch2> - id = <expression>;
+<switch2> - <full_id>
+
+<if> - if <condition> <if_while_body>
+<full_id> - ( <call_func> ;
+<full_id> - = <expression>
+
+<call_func> - ( <call_param> );
+<call_param> - string <call_param_n>
+<call_param> - integer <call_param_n>
+<call_param> - double <call_param_n>
+<call_param> - id <call_param_n>
+<call_param> - full_id <call_param_n>
+
+<call_param_n> - , <call_param>
+<call_param_n> - {\epsilon}
+
+<expression> 
+<expression> = <expression>;
+<expression> = <expression> + <expression>;
+<expression> = <expression> - <expression>;
+<expression> = <expression> * <expression>;
+<expression> = <expression> / <expression>;
+<expression> = (<expression>);
+
+<condition>
+<condition> = <condition>)
+<condition> = <condition> + <condition>)
+<condition> = <condition> - <condition>)
+<condition> = <condition> * <condition>)
+<condition> = <condition> / <condition>)
+<condition> = <condition> < <condition>)
+<condition> = <condition> > <condition>)
+<condition> = <condition> <= <condition>)
+<condition> = <condition> >= <condition>)
+<condition> = <condition> != <condition>)
+<condition> = <condition> == <condition>)
+
+<expression> - integer
+<expression> - double
+<expression> - string
+<expression> - id
+<expression> - full_id
+
+<condition> - integer
+<condition> - double
+<condition> - string
+<condition> - id
+<condition> - full_id

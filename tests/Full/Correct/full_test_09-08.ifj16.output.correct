@@ -1,0 +1,6 @@
+TEST: 83
+Processing: tests/Full/full_test_09-08.ifj16
+Output:
+Sematic error: too many arguments to built-in function 'ifj16.readString
+tests/Full/full_test_09-08.ifj16:ERROR:0:SEM_UNCOMP_ERROR
+Return: 4

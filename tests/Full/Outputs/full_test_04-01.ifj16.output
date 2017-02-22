@@ -1,0 +1,6 @@
+TEST: 30
+Processing: tests/Full/full_test_04-01.ifj16
+Output:
+Sematic error: undef Main.pow
+tests/Full/full_test_04-01.ifj16:ERROR:0:SEM_UNDEF_ERROR
+Return: 3

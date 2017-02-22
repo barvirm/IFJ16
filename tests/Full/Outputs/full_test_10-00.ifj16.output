@@ -1,0 +1,9 @@
+TEST: 85
+Processing: tests/Full/full_test_10-00.ifj16
+Output:
+Vypocet elektro velicin
+R-odpor
+U-napeti
+I-Proud
+Zadej kterou velicinou chces vypocitat: Zadej hodnotu U: Zadej hodnotu I: Hodnota odporu je 4R
+Return: 0
